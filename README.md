@@ -1,2 +1,79 @@
-# ivfi-themes
-A repository for themes to use with IVFi
+<h1 align="center">IVFi Themes</h1>
+
+<p align="center">A repository containing themes for <a href="https://ivfi.io/">IVFi</a></p>
+
+---
+
+## White
+
+_A simple white theme._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/206820434-a6ed1387-3bd2-419b-8db3-0da19fa1a426.png"/>
+</details>
+
+---
+
+## Amethyst
+
+_A dark, purple theme based on the colors of the amethyst._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/206819621-479e4d70-e75f-4e2c-8f1e-8c3116eca674.png"/>
+</details>
+
+---
+
+## Coral
+
+_A turquoise and greenish theme._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/206820250-05470e1e-9e6b-4ebf-8d24-972767a5de20.png"/>
+</details>
+
+
+---
+
+## Ayu-Mirage
+
+Creator: [evwltrs](https://github.com/evwltrs)
+
+_Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/206820492-f12d61eb-82ea-48b7-9717-69dc7e291fdb.png"/>
+</details>
+
+---
+
+## Gruvbox
+
+Creator: [evwltrs](https://github.com/evwltrs)
+
+_Inspired by the classic vim theme [gruvbox](https://github.com/morhetz/gruvbox)._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/206821023-27e7228e-4a5b-4472-bfae-f7cf607f6aaf.png"/>
+</details>
+
+
+---
+
+<h1>Got anything to add?</h1>
+
+<p>If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!</p>
+
+Themes are created by simply overriding any existing values.
+
+A theme can either be a single `.css` file or a directory with a stylesheet file and other assets!
