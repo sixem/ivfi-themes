@@ -302,7 +302,16 @@ html > body .readmeContainer
 {
   background-color: #000 !important;
   border-top: 1px solid transparent !important;
-  border-bottom: 1px solid #131313 !important;
+}
+
+html > body .readmeContainer[open]
+{
+  border-bottom: 1px solid #f2ca19 !important;
+}
+
+html > body .readmeContainer:not([open])
+{
+  border-bottom: 1px solid #000 !important;
 }
 
 .readmeContainer a:hover
@@ -316,7 +325,8 @@ html > body .readmeContainer div.readmeContents
   text-align: center !important;
 }
 
-html > body .readmeContainer::before
+html > body .readmeContainer::before,
+html > body .readmeContainer summary
 {
   text-align: right !important;
   background-color: #0b0b0b !important;
@@ -324,15 +334,9 @@ html > body .readmeContainer::before
   border-bottom: 1px solid #000 !important;
 }
 
-html > body .readmeContainer summary
-{
-  background-color: #202324 !important;
-  border-bottom: none !important;
-}
-
 html > body .readmeContainer[open] summary
 {
-  border-bottom: 1px solid #25292b !important;
+  border-bottom: 1px solid #000 !important;
 }
 
 body > div.bottom {
