@@ -28,6 +28,20 @@ _A dark, purple theme based on the colors of the amethyst._
 
 ---
 
+## Antique (HC)
+
+Creator: [v1r](https://github.com/v1rx)
+
+_A dark, high contrast theme._
+
+<details>
+<summary>Preview</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/2825338/207438481-6c51e20e-36e2-4531-a371-f3631f95c3c0.png"/>
+</details>
+
+---
+
 ## Coral
 
 _A turquoise and greenish theme._
