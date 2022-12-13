@@ -1,6 +1,14 @@
-<h1 align="center">IVFi Themes</h1>
+<p align="center">
+  <img width="700px" src="./logo.png" />
+</p>
 
-<p align="center">A repository containing themes for <a href="https://ivfi.io/">IVFi</a></p>
+<p align="center">
+  <i>A repository containing themes for <a href="https://ivfi.io/">IVFi</a></i>
+</p>
+
+<p align="center"> 
+  <i>For usage instructions, see the relevant repository.</i>
+</p>
 
 ---
 
