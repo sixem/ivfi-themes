@@ -37,10 +37,11 @@ _A dark, high contrast theme._
 <details>
 <summary>Preview</summary>
 <br>
-<img src="https://user-images.githubusercontent.com/2825338/207438481-6c51e20e-36e2-4531-a371-f3631f95c3c0.png"/>
+<img src="https://user-images.githubusercontent.com/2825338/207439194-976e4197-32da-4437-81b5-c91c658e4e35.png"/>
 </details>
 
 ---
+
 
 ## Coral
 
