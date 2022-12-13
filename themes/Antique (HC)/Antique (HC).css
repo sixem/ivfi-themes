@@ -1,0 +1,418 @@
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-ExtraLight.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-ExtraLight.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-ExtraLight.otf') format('opentype'),
+       url('./TTF/SourceCodePro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-ExtraLightIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-ExtraLightIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-ExtraLightIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Light.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Light.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Light.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-LightIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-LightIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-LightIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-LightIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Regular.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Regular.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-It.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-It.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-It.otf') format('opentype'),
+       url('./TTF/SourceCodePro-It.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Medium.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Medium.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-MediumIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-MediumIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-MediumIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Semibold.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Semibold.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Semibold.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Semibold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-SemiboldIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-SemiboldIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-SemiboldIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Bold.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Bold.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Bold.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-BoldIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-BoldIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-BoldIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-BoldIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Black.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Black.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Black.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-BlackIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-BlackIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-BlackIt.ttf') format('truetype');
+}
+
+body,
+html {
+  font-family: 'Source Code Pro';
+  background-color: #000000 !important;
+  color: #E11845 !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+  background-color: #0B0B0B !important;
+}
+
+html > body > div.menu {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+html > body > div.menu > div:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+body > div.path a {
+  color: #F2CA19 !important;
+  font-weight: normal !important;
+}
+
+html > body > div.topBar > div.directoryInfo
+{
+  letter-spacing: 0px !important;
+}
+
+body > div.tableContainer
+{
+  border-top: 1px solid #000 !important;
+  background-color: #000 !important;
+}
+
+body > div.tableContainer
+{
+  border-bottom: 2px solid #F2CA19;
+}
+
+body > div.tableContainer > table
+{
+  background-color: #000000 !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+  background-color: #E11845 !important;
+}
+
+body > div.tableContainer > table thead tr
+{
+  border-bottom: none !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.directory td a
+{
+  color: #E11845 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.directory:hover a,
+html > body > div.tableContainer > table > tbody > tr.directory:hover td,
+html > body > div.tableContainer > table > tbody > tr:hover a,
+html > body > div.tableContainer > table > tbody > tr:hover td
+{
+  color: #fff !important;
+}
+
+body > div.tableContainer > table thead tr th
+{
+  color: #F2CA19 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.parent > td > a
+{
+  color:#52ffae !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a
+{
+  color: #fff !important;
+}
+
+body > div.tableContainer > table tbody tr.file td a.preview
+{
+  color: #F2CA19 !important;
+}
+
+body > div.tableContainer > table tbody tr.file td a.preview:visited
+{
+  color: #F2CA19 !important;
+}
+
+body > div.tableContainer > table tbody tr.file td.download a
+{
+  color: #F2CA19 !important;
+}
+
+body > div.tableContainer > table tbody tr.file td.download a:visited
+{
+  color: #F2CA19 !important;
+}
+
+.settingsContainer
+{
+  background-color: #000 !important;
+}
+
+.settingsContainer > .wrapper > div.section > div.header
+{
+  background-color: #090909 !important;
+  color: #E11845 !important;
+}
+
+select:not(.default) {
+  background-color: #090909 !important;
+}
+
+.settingsContainer > div.bottom {
+  background-color: #000 !important;
+}
+
+.settingsContainer > div.bottom > div:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+html > body .readmeContainer
+{
+  background-color: #000 !important;
+  border-top: 1px solid transparent !important;
+  border-bottom: 1px solid #131313 !important;
+}
+
+.readmeContainer a:hover
+{
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+html > body .readmeContainer div.readmeContents
+{
+  text-align: center !important;
+}
+
+html > body .readmeContainer::before
+{
+  text-align: right !important;
+  background-color: #0b0b0b !important;
+  color: #F2CA19 !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+html > body .readmeContainer summary
+{
+  background-color: #202324 !important;
+  border-bottom: none !important;
+}
+
+html > body .readmeContainer[open] summary
+{
+  border-bottom: 1px solid #25292b !important;
+}
+
+body > div.bottom {
+  color: #E11845 !important;
+}
+
+body > div.bottom a {
+  color: #0057E9 !important;
+}
+
+body > div.topBar
+{
+  color: #FFF !important;
+  background-color: #000 !important;
+  box-shadow: 0 0 3px #0d0d0d69 !important;
+  border-bottom: 1px solid rgb(19, 19, 19) !important;
+}
+
+body > div.topBar > div.extend
+{
+  border-left: 2px solid transparent !important;
+}
+
+body > div.topBar > div.extend:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+div.topBar > div.directoryInfo > div.quickPath > a
+{
+  color: #E11845 !important;
+}
+
+div.filterContainer > input[type="text"]
+{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
+  border-top: 2px solid #fff !important;
+}
+
+.rootGallery div.galleryContent .list
+{
+  background-color: #000 !important;
+}
+
+.rootGallery div.galleryContent .list table tr:not(.selected) td:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.rootGallery div.galleryContent .list table tr:not(.selected) td
+{
+  background-color: #000 !important;
+}
+
+.rootGallery div.galleryContent .list table tr.selected td
+{
+  background-color: #e11845 !important;
+}
+
+.rootGallery div.galleryBar {
+  background-color: #000 !important;
+  border-bottom: 2px solid hsl(0, 0%, 5.1%) !important;
+}
+
+.rootGallery > div.galleryBar > .galleryBarRight > a.download
+{
+  color: #ffe300 !important;
+}
+
+.rootGallery > div.galleryContent > div.list > div.drag
+{
+  border-left: 2px solid hsl(0, 0%, 5.1%) !important;
+}
+
+@media only screen and (min-width: 768px)
+{
+  html > body.compact {
+    border: 1px solid #1d2021 !important;
+  }
+}
