@@ -15,6 +15,18 @@ body > div.path a {
 
 .topBar {
   background-color: #171b24 !important;
+  border-bottom: none !important;
+  box-shadow: 0 0 3px #0d0d0d87 !important;
+}
+
+html > body > div.topBar > div.extend
+{
+  border-left: 1px solid #1c222f !important;
+}
+
+html > body > div.topBar > div.extend:hover
+{
+  background-color: #1c212f !important;
 }
 
 body > div.tableContainer {
@@ -69,4 +81,27 @@ select:not(.default) {
 
 .readmeContainer::before {
   background-color: #1c212b !important;
+}
+
+html > body .readmeContainer summary
+{
+  background-color: #151922 !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+  background-color: rgba(30, 35, 55, 0.55) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  html > body.compact {
+    border: none !important;
+  }
+
+  html > body > div.tableContainer,
+  html > body .readmeContainer
+  {
+    border-left: 1px solid #19191d !important;
+    border-right: 1px solid #19191d !important;
+  }
 }
