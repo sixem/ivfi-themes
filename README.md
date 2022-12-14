@@ -38,7 +38,7 @@ _A dark, purple theme based on the colors of the amethyst._
 
 ---
 
-## Antique (HC)
+## Antique
 
 Creator: [v1r](https://github.com/v1rx)
 
