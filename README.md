@@ -109,6 +109,6 @@ Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!
 
-Themes are created by simply overriding any existing values.
+Themes are created by simply overriding any existing stylesheet values.
 
-A theme can either be a single `.css` file or a directory with a stylesheet file and other assets!
+A theme can either be a single stylesheet or a directory with a stylesheet file and other assets like open source fonts etc.
