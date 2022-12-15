@@ -24,7 +24,7 @@
 ---
 
 ## White
-> _A simple white theme._
+> _A simple bright, white theme._
 
 <details>
 <summary>Preview</summary>
@@ -48,7 +48,8 @@
 
 ## Antique
 
-Creator: [v1r](https://github.com/v1rx)
+Contributed by: [@v1rx](https://github.com/v1rx)
+
 > _A dark, high contrast theme._
 
 <details>
@@ -75,7 +76,7 @@ Creator: [v1r](https://github.com/v1rx)
 
 ## Ayu-Mirage
 
-Creator: [evwltrs](https://github.com/evwltrs)
+Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 > _Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
 
@@ -89,7 +90,7 @@ Creator: [evwltrs](https://github.com/evwltrs)
 
 ## Gruvbox
 
-Creator: [evwltrs](https://github.com/evwltrs)
+Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 > _Inspired by the classic vim theme [gruvbox](https://github.com/morhetz/gruvbox)._
 
@@ -102,9 +103,11 @@ Creator: [evwltrs](https://github.com/evwltrs)
 
 ---
 
-<h1>Got anything to add?</h1>
+<br/><br/>
 
-<p>If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!</p>
+<h1>Want to contribute?</h1>
+
+If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!
 
 Themes are created by simply overriding any existing values.
 
