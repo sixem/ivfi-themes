@@ -50,7 +50,7 @@
 
 Contributed by: [@v1rx](https://github.com/v1rx)
 
-> _A dark, high contrast theme._
+> _An old school, dark, and high contrast theme._
 
 <details>
 <summary>Preview</summary>
