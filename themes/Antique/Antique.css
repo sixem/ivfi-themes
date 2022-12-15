@@ -281,7 +281,7 @@ body > div.tableContainer > table tbody tr.file td.download a:visited
 .settingsContainer > .wrapper > div.section > div.header
 {
   background-color: #090909 !important;
-  color: #E11845 !important;
+  color: #fff !important;
 }
 
 select:not(.default) {
