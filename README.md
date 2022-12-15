@@ -7,16 +7,24 @@
   <i>A repository containing themes for <a href="https://ivfi.io/">IVFi</a></i>
 </p>
 
+<br/>
+
 <p align="center"> 
-  <i>For usage instructions, see the relevant repository.</i>
+  For usage instructions, see the relevant repository:
 </p>
+
+<p align="center"> 
+  <a href="https://github.com/sixem/ivfi-php">IVFi-PHP</a>
+  <span>|</span>
+  <a href="https://github.com/sixem/ivfi-node">IVFi-Node</a>
+</p>
+
 <br/>
 
 ---
 
 ## White
-
-_A simple white theme._
+> _A simple white theme._
 
 <details>
 <summary>Preview</summary>
@@ -28,7 +36,7 @@ _A simple white theme._
 
 ## Amethyst
 
-_A dark, purple theme based on the colors of the amethyst._
+> _A dark, purple theme based on the colors of the amethyst._
 
 <details>
 <summary>Preview</summary>
@@ -41,8 +49,7 @@ _A dark, purple theme based on the colors of the amethyst._
 ## Antique
 
 Creator: [v1r](https://github.com/v1rx)
-
-_A dark, high contrast theme._
+> _A dark, high contrast theme._
 
 <details>
 <summary>Preview</summary>
@@ -55,7 +62,7 @@ _A dark, high contrast theme._
 
 ## Coral
 
-_A turquoise and greenish theme._
+> _A turquoise and greenish theme._
 
 <details>
 <summary>Preview</summary>
@@ -70,7 +77,7 @@ _A turquoise and greenish theme._
 
 Creator: [evwltrs](https://github.com/evwltrs)
 
-_Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
+> _Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
 
 <details>
 <summary>Preview</summary>
@@ -84,7 +91,7 @@ _Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
 
 Creator: [evwltrs](https://github.com/evwltrs)
 
-_Inspired by the classic vim theme [gruvbox](https://github.com/morhetz/gruvbox)._
+> _Inspired by the classic vim theme [gruvbox](https://github.com/morhetz/gruvbox)._
 
 <details>
 <summary>Preview</summary>
