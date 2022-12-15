@@ -110,3 +110,7 @@ Contributed by: [@evwltrs](https://github.com/evwltrs)
 If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!
 
 Themes are created by simply overriding any existing CSS values. A theme should consist of a a directory with a stylesheet matching the name of the directory, which should also be the name of the theme. Any assets can be imported from the theme's directory. However, it's important to note that any assets must be open source when submitted, and any credit must also be provided if necessary.
+
+<h1>License</h1>
+
+> Licensed under the MIT license
