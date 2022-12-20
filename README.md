@@ -103,9 +103,9 @@ Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 ---
 
-<br/><br/>
+<br/>
 
-<h1>Want to contribute?</h1>
+<h1>Do you want to contribute?</h1>
 
 If you've created a nice theme, feel free to submit a <a href="https://github.com/sixem/ivfi-themes/pulls">pull request</a> with it!
 
