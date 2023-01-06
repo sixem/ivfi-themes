@@ -1,145 +1,303 @@
-html > body {
-    background-color: #21212b!important;
+html body, html
+{
+    background-color: #121b28 !important;
+    scrollbar-color: #2d4260 #111924 !important;
+    color: #d5dee8 !important;
 }
 
-html > body > div.topBar {
-    background-color: transparent!important;
-    border-bottom: 1px solid hsla(246, 10%, 19.6%, 0.52)!important;
-    box-shadow: none!important;
-    color: #acacac!important;
+html > body > div.topBar
+{
+    background-color: #34456680 !important;
+    color: #fff !important;
+    box-shadow: 0 0 3px #0d0d0d2e !important;
+}
+
+html > body > div.path
+{
+    color: #fff !important;
+    font-size: 17px !important;
+}
+
+html > body > div.path > a
+{
+    color: #fff !important;
 }
 
 html > body .readmeContainer
 {
-    background-color: #171a24!important;
-    border-top: 1px solid #1b1c24!important;
-    border-bottom: 1px solid #1b1c24!important;
+    border-top: 1px solid #233046 !important;
+    border-bottom: 1px solid #233046 !important;
+    background-color: #162131 !important;
 }
 
 html > body .readmeContainer summary
 {
-    background-color: #1c1e2b!important;
-    border-bottom: none!important;
+    background-color: #1f2c42 !important;
+    color: #fff !important;
+    border-bottom: none !important;
 }
 
 html > body .readmeContainer[open] summary
 {
-    border-bottom: 1px solid #202231!important;
+    border-bottom: 1px solid #233046 !important;
 }
 
-body > div.topBar > div.extend:hover {
-    background-color: hsla(231.4, 23.3%, 23.5%, 0.52)!important;
-}
-
-body > div.topBar > div.extend {
-    border-left: 2px solid hsla(220, 6.5%, 18%, 0.52)!important;
-}
-
-body > div.tableContainer > table > tbody > tr.file > td > a:not(.preview),
-html > body > div.tableContainer > table > thead > tr.file > td > a:not(.preview) {
-    color: #bdbdbd!important;
-}
-
-html > body > div.tableContainer,
-body > div.tableContainer > table {
-    background-color: #171a24!important;
-}
-
-html > body > div.tableContainer {
-    border-top: 1px solid #1c1c24!important;
-}
-
-body > div.tableContainer > table > thead > tr {
-    background-color: #1c1e2b!important;
-    border-bottom: 1px solid #202431!important;
-}
-
-body > div.tableContainer > table tr.file a.preview, body > div.tableContainer > table tr.file a.preview:hover {
-    color: #46a9ca!important;
-}
-
-body > div.tableContainer > table tr.file a.preview:visited {
-    color: #3f7486!important;
-}
-
-body > div.tableContainer > table tr.directory a {
-    color: #75f7b4!important;
-}
-
-body > div.tableContainer > table tr.parent a {
-    color: #f9f871!important;
-}
-
-body > div.tableContainer > table tr.file td.download a {
-    color: #4792ac!important;
-}
-
-body > div.tableContainer > table tr.file td.download a:visited {
-    color: #406e7d!important;
-}
-
-body > div.tableContainer > table > tbody > tr:not(.parent):hover {
-    background-color: rgb(32, 36, 51)!important;
-}
-
-body.compact > div.path {
-    text-align: center!important;
-}
-
-body > div.path a {
-    color: #7efff1!important;
-    font-weight: normal!important;
-}
-
-.rootGallery
+html > body .readmeContainer.readmeContainer:not([open])
 {
-    background-color: rgba(15, 18, 19, 0.8)!important;
+    border-bottom: none !important;
 }
 
-.rootGallery > div.galleryBar
+html > body .readmeContainer.readmeContainer:not([open]) summary
 {
-    background-color: rgba(32, 39, 51, 0.7)!important;
-    border-bottom: 2px solid hsla(211.8, 20%, 16.7%, 0.87)!important;
+    border-bottom: 1px solid #233046 !important;
 }
 
-.rootGallery > div.galleryContent > div.list
+html > body > div.topBar > div.extend
 {
-    background-color: #171a24!important;
+    border-left: none !important;
+    border-bottom: 1px solid #202020 !important;
 }
 
-.rootGallery div.galleryContent .list table tr.selected td {
-    background-color: rgb(34, 38, 53)!important;
-}
-
-.rootGallery div.galleryContent .list table tr.selected td:hover {
-    background-color: rgb(34, 38, 53)!important;
-}
-
-.rootGallery div.galleryContent .list table tr:not(.selected) td:hover {
-    background-color: rgb(34, 38, 53)!important;
-}
-
-.rootGallery div.galleryBar .galleryBar__right a.download {
-    color: #4792ac!important;
-}
-
-body > div.menu {
-    background-color: transparent!important;
-}
-
-body > div.menu > div:hover {
-    background-color: rgba(83, 125, 138, 0.04)!important;
-}
-
-body > div.bottom
+html > body > div.topBar > div.extend:hover
 {
-    color: #9f9f9f!important;
+    background-color: hsla(213.7, 32%, 35%, 0.45) !important;
+    border-bottom: 1px solid #202020 !important;
 }
 
-html > body > div.bottom a {
-    color: #82a5b3!important;
+html > body > div.tableContainer
+{
+    border-top: 1px solid #233046 !important;
+    background-color: #121a26 !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 2px solid transparent !important;
 }
 
-html > body > div.bottom a:hover {
-    color: #8bbcd0!important;
+html > body > div.tableContainer > table
+{
+    background-color: transparent !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr:nth-child(even)
+{
+    background-color: #111924 !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+    background-color: #1f2c42 !important;
+}
+
+html > body > div.tableContainer > table > thead > tr > th
+{
+    font-weight: normal !important;
+    letter-spacing: 2px !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+    border-bottom: 2px solid #ececec05 !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+    background-color: #1c2636 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td.download > a,
+html > body > div.tableContainer > table > thead > tr.file > td.download > a
+{
+    color: #5c7795 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview,
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview:hover,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview:hover
+{
+    color: #81beff !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a:not(.preview):not([download]):visited,
+html > body > div.tableContainer > table > thead > tr.file > td > a:not(.preview):not([download]):visited,
+html > body > div.tableContainer > table > tbody > tr.file > td > a:not(.preview),
+html > body > div.tableContainer > table > thead > tr.file > td > a:not(.preview)
+{
+    color: #e1e1e1 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.parent > td > a,
+html > body > div.tableContainer > table > thead > tr.parent > td > a
+{
+    color: #ffd452 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr:not(.hid-row),
+html > body > div.tableContainer > table > thead > tr:not(.hid-row)
+{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+html > body > div.tableContainer > table > thead > tr > th
+{
+    padding: 7px 0 6px 1px !important;
+}
+
+html > body > div.menu
+{
+    background-color: transparent !important;
+
+    border-bottom: 2px solid #f4f4f41c !important;
+    border-left: 2px solid #f4f4f41c !important;
+    border-right: 2px solid #f4f4f41c !important;
+
+    color: #d5d5d5 !important;
+    margin-right: 5px !important;
+}
+
+html > body > div.menu > div:hover
+{
+    background-color: #ffffff0a !important;
+}
+
+html > body > div.bottom,
+html > body > div.bottom a
+{
+    color: #8398b9 !important;
+}
+
+html > body > div.bottom
+{
+    border-top: 1px solid #273642 !important;
+    background-color: #121b28 !important;
+}
+
+html > body > div.settingsContainer
+{
+    background-color: #161f2f !important;
+}
+
+html > body > div.settingsContainer > .wrapper > div.section > div.header
+{
+    background-color: #1f2c42 !important;
+    border-bottom: 1px solid #ffffff14 !important;
+    border-top: 1px solid #ffffff14 !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:hover
+{
+    background-color: #263857 !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:not(:last-child)
+{
+    border-right: 1px solid #ffffff0d !important;
+}
+
+html > body select:not(.default)
+{
+    background-color: #1f2c42 !important;
+    border: 1px solid #ffffff14 !important;
+}
+
+html > body > div.settingsContainer > div.bottom
+{
+    background-color: #1f2c42 !important;
+}
+
+html > body > .rootGallery
+{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list
+{
+    background-color: #121a26 !important;
+    border-top: 2px solid transparent !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr:not(.selected):nth-child(even)
+{
+    background-color: #111924 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr:not(.selected) > td:hover
+{
+    background-color: #17202f !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr.selected > td
+{
+    background-color: #1c2636 !important;
+    border-left: 3px solid #fbfcff !important;
+}
+
+html > body > .rootGallery > div.galleryBar
+{
+    background-color: #1c2636 !important;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarRight > a.download
+{
+    color: #81beff !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:first-child::after,
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:last-child::before
+{
+    color: #e1e1e112 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > div.drag
+{
+    border-left: 2px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.media > div.item-info-static
+{
+    background-color: rgba(52, 80, 117, 0.5) !important;
+    color: #fff !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr
+{
+    color: #c3d1e6 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr > td
+{
+    padding: 8px 4px 8px 6px !important;
+}
+
+html > body > div.filterContainer
+{
+    margin: 0px 10px 10px 10px !important;
+    box-shadow: 0 0 3px #0000001a !important;
+    width: calc(100% - 20px) !important;
+}
+
+html > body > div.filterContainer > input[type="text"]
+{
+    padding: 4px 10px !important;
+    width: calc(100% - 20px) !important;
+    background-color: #344366a1 !important;
+
+    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(3px) !important;
+
+    border: 1px solid #46518c9c !important;
+    border-radius: 4px !important;
+}
+
+@media only screen and (min-width:768px)
+{
+    html > body.compact
+    {
+        border: 1px solid #152133 !important;
+        box-shadow: 0px 0px 5px #0000003d !important;
+    }
 }

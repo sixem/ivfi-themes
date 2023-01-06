@@ -1,107 +1,296 @@
-body
+html body, html
 {
-    background-color: #131313!important;
-}
-
-body > div.path
-{
-    color: #8e8e8e!important;
+    background-color: #221f2e !important;
+    scrollbar-color: #4d4471 #221f2e !important;
 }
 
 html > body > div.topBar
 {
-    background-color: rgba(27, 26, 32, 0.65)!important;
-    color: #b7acc8!important;
-    box-shadow: 0 0 3px #0d0d0d29!important;
+    background-color: #3e346680 !important;
+    color: #fff !important;
+    box-shadow: 0 0 3px #0d0d0d2e !important;
 }
 
-html > body > div.tableContainer
+html > body > div.path
 {
-    background-color: #151415!important;
+    background-color: #1c1a26 !important;
+    padding: 12px 0px 12px 18px !important;
+    border-radius: 7px !important;
+    color: #edd7f0 !important;
+    width: calc(100% - 40px) !important;
+    border: 2px solid #28242da6 !important;
+    font-size: 17px !important;
+
+    background: rgb(28,26,38) !important;
+    background: linear-gradient(35deg, rgb(28, 26, 38) 0%, rgb(40, 35, 62) 100%) !important;
+}
+
+html > body > div.path > a
+{
+    color: #fff !important;
 }
 
 html > body .readmeContainer
 {
-    background-color: #151415!important;
+    border-top: 1px solid #1e1e1e;
+    background-color: #1d1a26 !important;
 }
 
 html > body .readmeContainer summary
 {
-    background-color: #171617!important;
-    border-bottom: none!important;
+    background-color: #2c2840 !important;
+    color: #fff !important;
+    border-bottom: none !important;
+    padding: 5px 8px 7px 6px !important;
 }
 
-html > body .readmeContainer[open] summary
+html > body .readmeContainer.readmeContainer:not([open])
 {
-    border-bottom: 1px solid #1e1c22!important;
+    border-bottom: none !important;
 }
 
-body > div.tableContainer > table tr.file a.preview, body > div.tableContainer > table tr.file a.preview:hover {
-    color: #8d6ec8!important;
+html > body .readmeContainer.readmeContainer:not([open]) summary
+{
+    border-bottom: 1px solid #1e1e1e !important;
 }
 
-body > div.tableContainer > table tr.file a.preview:visited {
-    color: #5e5179!important;
+html > body > div.topBar > div.extend
+{
+    border-left: none !important;
+    border-bottom: 1px solid #202020 !important;
 }
 
-body > div.tableContainer > table tr.directory a {
-    color: #f86f8d!important;
+html > body > div.topBar > div.extend:hover
+{
+    background-color: hsla(252, 32%, 35%, 0.45) !important;
+    border-bottom: 1px solid #202020 !important;
 }
 
-body > div.tableContainer > table tr.parent a {
-    color: #ffc561!important;
+html > body > div.tableContainer
+{
+    border-top: 1px solid #1e1e1e !important;
+    background-color: #1d1a28 !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 2px solid #292537 !important;
+    background: rgb(34,31,46) !important;
+    background: linear-gradient(35deg, rgba(34,31,46,1) 0%, rgba(28,25,37,1) 100%) !important;
 }
 
-body > div.tableContainer > table tr.file td.download a {
-    color: #8d6ec8!important;
+html > body > div.tableContainer > table
+{
+    background-color: transparent !important;
 }
 
-body > div.tableContainer > table tr.file td.download a:visited {
-    color: #5e5179!important;
+html > body > div.tableContainer > table > thead > tr
+{
+    background-color: #2c2840 !important;
 }
 
-body > div.tableContainer > table > tbody > tr:not(.parent):hover {
-    background-color: rgb(27, 26, 28)!important;
+html > body > div.tableContainer > table > thead > tr > th
+{
+    font-weight: normal !important;
+    letter-spacing: 2px !important;
 }
 
-body > div.tableContainer > table {
-    background-color: #151415!important;
+html > body > div.tableContainer > table > thead > tr
+{
+    border-bottom: 2px solid #ececec05 !important;
 }
 
-body > div.tableContainer > table > thead > tr {
-    background-color: #151415!important;
-    border-bottom: 2px solid transparent!important;
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+    background-color: rgba(80, 63, 140, 0.22) !important;
 }
 
-body.compact > div.path {
-    text-align: center!important;
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview,
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview:hover,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview:hover
+{
+    color: #8595ec !important;
 }
 
-body > div.path a {
-    color: #beaadb!important;
-    font-weight: normal!important;
+html > body > div.tableContainer > table > tbody > tr.file > td > a:not(.preview):not([download]):visited,
+html > body > div.tableContainer > table > thead > tr.file > td > a:not(.preview):not([download]):visited
+{
+    color: #e1e1e1 !important;
 }
 
-.rootGallery {
-    background-color: rgba(9, 6, 13, 0.8)!important;
+html > body > div.tableContainer > table > tbody > tr.parent > td > a,
+html > body > div.tableContainer > table > thead > tr.parent > td > a
+{
+    color: #ffb352 !important;
 }
 
-.rootGallery div.galleryContent .list table tr.selected td {
-    background-color: #342d4294!important;
+html > body > div.tableContainer > table > tbody > tr:not(.hid-row),
+html > body > div.tableContainer > table > thead > tr:not(.hid-row)
+{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
 }
 
-.rootGallery div.galleryContent .list table tr.selected td:hover {
-    background-color: #342d4294!important;
+html > body > div.tableContainer > table > thead > tr > th
+{
+    padding: 7px 0 6px 1px !important;
 }
 
-.rootGallery div.galleryContent .list table tr:not(.selected) td:hover {
-    background-color: #342d422e!important;
+html > body > div.menu
+{
+    background-color: transparent !important;
+
+    border-bottom: 2px solid #f4f4f41c !important;
+    border-left: 2px solid #f4f4f41c !important;
+    border-right: 2px solid #f4f4f41c !important;
+
+    color: #d5d5d5 !important;
+    margin-right: 5px !important;
 }
 
-.rootGallery > div.galleryBar > .galleryBarRight > a.download {
-    color: #8d6ec8!important;
+html > body > div.menu > div:hover
+{
+    background-color: #ffffff0a !important;
 }
 
-.rootGallery > div.galleryBar > .galleryBarRight > a.download:hover {
-    color: #9872e1!important;
+html > body > div.bottom,
+html > body > div.bottom a
+{
+    color: #fff !important;
+}
+
+html > body > div.bottom
+{
+    border-top: 1px solid #221f2d !important;
+    background-color: #221f2e !important;
+}
+
+html > body > div.settingsContainer
+{
+    background-color: #1d1a26f2 !important;
+}
+
+html > body > div.settingsContainer > .wrapper > div.section > div.header
+{
+    background-color: #2c2840 !important;
+    border-bottom: 1px solid #ffffff08 !important;
+    border-top: 1px solid #ffffff08 !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:hover
+{
+    background-color: #574f7d !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:not(:last-child)
+{
+    border-right: 1px solid #ffffff0d !important;
+}
+
+html > body select:not(.default)
+{
+    background-color: #2c2840 !important;
+    border: 1px solid #ffffff14 !important;
+}
+
+html > body > div.settingsContainer > div.bottom
+{
+    background-color: #2c2840 !important;
+}
+
+html > body > .rootGallery
+{
+    background-color: rgba(4, 1, 6, 0.6) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list
+{
+    background-color: #171420 !important;
+    border-top: 2px solid transparent !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr:not(.selected) > td:hover
+{
+    background-color: #26213c !important;
+    color: #fff !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr.selected > td
+{
+    background-color: #29243f !important;
+    color: #fff !important;
+}
+
+html > body > .rootGallery > div.galleryBar
+{
+    background-color: #262139 !important;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarRight > a.download
+{
+    color: #8595ec !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:first-child::after,
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:last-child::before
+{
+    color: #e1e1e112 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > div.drag
+{
+    border-left: 2px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.media > div.item-info-static
+{
+    background-color: rgba(38, 33, 57, 0.9) !important;
+    color: #fff !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr
+{
+    color: #d9ccdf !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr > td
+{
+    padding: 8px 4px 8px 6px !important;
+}
+
+html > body > div.filterContainer
+{
+    margin: 0px 10px 10px 10px !important;
+    box-shadow: 0 0 3px #0000001a !important;
+    width: calc(100% - 20px) !important;
+}
+
+html > body > div.filterContainer > input[type="text"]
+{
+    padding: 4px 10px !important;
+    width: calc(100% - 20px) !important;
+    background-color: #3e3466a1 !important;
+
+    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+@media only screen and (min-width:768px)
+{
+    html > body.compact
+    {
+        border: 1px solid #2c2642 !important;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    html > body > div.path
+    {
+        padding: 10px 0px 10px 10px !important;
+        width: calc(100% - 30px) !important;
+        font-size: 15px !important;
+    }
 }
