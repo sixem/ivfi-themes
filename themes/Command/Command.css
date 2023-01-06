@@ -1,0 +1,481 @@
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-ExtraLight.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-ExtraLight.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-ExtraLight.otf') format('opentype'),
+       url('./TTF/SourceCodePro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-ExtraLightIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-ExtraLightIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-ExtraLightIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Light.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Light.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Light.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-LightIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-LightIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-LightIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-LightIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Regular.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Regular.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-It.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-It.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-It.otf') format('opentype'),
+       url('./TTF/SourceCodePro-It.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Medium.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Medium.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-MediumIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-MediumIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-MediumIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Semibold.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Semibold.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Semibold.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Semibold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-SemiboldIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-SemiboldIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-SemiboldIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Bold.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Bold.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Bold.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-BoldIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-BoldIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-BoldIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-BoldIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-Black.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-Black.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-Black.otf') format('opentype'),
+       url('./TTF/SourceCodePro-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('./WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2') format('woff2'),
+       url('./WOFF/OTF/SourceCodePro-BlackIt.otf.woff') format('woff'),
+       url('./OTF/SourceCodePro-BlackIt.otf') format('opentype'),
+       url('./TTF/SourceCodePro-BlackIt.ttf') format('truetype');
+}
+
+
+html body, html
+{
+    background-color: #1a1a22 !important;
+    scrollbar-color: #2c2c3c #221f2e !important;
+    font-family: 'Source Code Pro';
+}
+
+html > body > div.topBar
+{
+    background-color: #16161cb5 !important;
+    color: #fff !important;
+    box-shadow: 0 0 3px #0d0d0d2e !important;
+}
+
+html > body > div.path
+{
+    background-color: #1c1a26 !important;
+    padding: 12px 0px 12px 18px !important;
+    border-radius: 7px !important;
+    color: #c8c8c8 !important;
+    width: calc(100% - 40px) !important;
+    font-size: 17px !important;
+    box-shadow: 0px 0px 4px #0000003d !important;
+
+    background: rgb(28, 27, 34) !important;
+    background: linear-gradient(35deg, #15161c 0%, #21212b) !important;
+}
+
+html > body > div.path > a
+{
+    color: #fff !important;
+}
+
+html > body .readmeContainer
+{
+    border-top: 1px solid #1e1e1e;
+    background-color: #15151a !important;
+}
+
+html > body .readmeContainer summary
+{
+    background-color: #21212b !important;
+    padding: 7px 8px 7px 6px !important;
+    color: #727b75 !important;
+    border-bottom: none !important;
+}
+
+html > body .readmeContainer summary:hover
+{
+    color: #a5a6a5 !important;
+}
+
+html > body .readmeContainer.readmeContainer:not([open])
+{
+    border-bottom: none !important;
+}
+
+html > body .readmeContainer.readmeContainer:not([open]) summary
+{
+    border-bottom: 1px solid #1e1e1e !important;
+}
+
+html > body > div.topBar > div.extend
+{
+    border-left: none !important;
+    border-bottom: 1px solid #202020 !important;
+}
+
+html > body > div.topBar > div.extend:hover
+{
+    background-color: hsla(0, 0%, 23.5%, 0.3) !important;
+    border-bottom: 1px solid #202020 !important;
+}
+
+html > body > div.tableContainer
+{
+    border-top: 1px solid #1e1e1e !important;
+    background-color: #1d1a28 !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 2px solid #292537 !important;
+    background: rgb(28, 27, 34) !important;
+    background: linear-gradient(35deg, #15161c 0%, rgb(28, 27, 34) 100%) !important;
+}
+
+html > body > div.tableContainer > table
+{
+    background-color: transparent !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+    background-color: #21212b !important;
+}
+
+html > body > div.tableContainer > table > thead > tr > th
+{
+    font-weight: normal !important;
+    letter-spacing: 2px !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+    border-bottom: 2px solid #ececec05 !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+    background-color: #a6a6a608 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.directory > td > a,
+html > body > div.tableContainer > table > thead > tr.directory > td > a
+{
+    color: #ee4848 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview,
+html > body > div.tableContainer > table > tbody > tr.file > td > a.preview:hover,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview,
+html > body > div.tableContainer > table > thead > tr.file > td > a.preview:hover
+{
+    color: #58b97e !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a:not(.preview):not([download]):visited,
+html > body > div.tableContainer > table > thead > tr.file > td > a:not(.preview):not([download]):visited
+{
+    color: #e1e1e1 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.parent > td > a,
+html > body > div.tableContainer > table > thead > tr.parent > td > a
+{
+    color: #ffb352 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr:not(.hid-row),
+html > body > div.tableContainer > table > thead > tr:not(.hid-row)
+{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+html > body > div.tableContainer > table > thead > tr > th
+{
+    padding: 7px 0 6px 1px !important;
+}
+
+html > body > div.menu
+{
+    background-color: transparent !important;
+
+    border-bottom: 2px solid #f4f4f41c !important;
+    border-left: 2px solid #f4f4f41c !important;
+    border-right: 2px solid #f4f4f41c !important;
+
+    color: #d5d5d5 !important;
+    margin-right: 5px !important;
+}
+
+html > body > div.menu > div:hover
+{
+    background-color: #ffffff0a !important;
+}
+
+html > body > div.bottom,
+html > body > div.bottom a
+{
+    color: #fff !important;
+}
+
+html > body > div.bottom
+{
+    border-top: 1px solid #221f2d !important;
+    background-color: #1a1a22 !important;
+}
+
+html > body > div.settingsContainer
+{
+    background-color: #1a1920 !important;
+}
+
+html > body > div.settingsContainer > .wrapper > div.section > div.header
+{
+    background-color: #21212b !important;
+    border-bottom: 1px solid #ffffff08 !important;
+    border-top: 1px solid #ffffff08 !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:hover
+{
+    background-color: #58b97e5e !important;
+    color: #fff !important;
+}
+
+html > body > div.settingsContainer > div.bottom > div:not(:last-child)
+{
+    border-right: 1px solid #ffffff0d !important;
+}
+
+html > body select:not(.default)
+{
+    background-color: #21212b !important;
+    border: 1px solid #ffffff14 !important;
+}
+
+html > body > div.settingsContainer > div.bottom
+{
+    background-color: #21212b !important;
+}
+
+html > body > .rootGallery
+{
+    background-color: rgba(4, 1, 6, 0.6) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list
+{
+    background-color: #16171d !important;
+    border-top: 2px solid transparent !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr:not(.selected):nth-child(even)
+{
+    background-color: #0000000a !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr:not(.selected) > td:hover
+{
+    background-color: #ffffff0a !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr.selected > td
+{
+    background-color: #223932 !important;
+    border-left: 3px solid #fbfcff !important;
+}
+
+html > body > .rootGallery > div.galleryBar
+{
+    background-color: #121215 !important;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.04) !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarRight > a.download
+{
+    color: #85eca8 !important;
+}
+
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:first-child::after,
+html > body > .rootGallery > div.galleryBar > div.galleryBarLeft > span:last-child::before
+{
+    color: #e1e1e112 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > div.drag
+{
+    border-left: 2px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.media > div.item-info-static
+{
+    background-color: rgba(18, 18, 21, 0.6) !important;
+    color: #fff !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr
+{
+    color: #e1e1e1 !important;
+}
+
+html > body > .rootGallery > div.galleryContent > div.list > table > tbody > tr > td
+{
+    padding: 8px 4px 8px 6px !important;
+}
+
+html > body > div.filterContainer
+{
+    margin: 0px 10px 10px 10px !important;
+    box-shadow: 0 0 3px #0000001a !important;
+    width: calc(100% - 20px) !important;
+}
+
+html > body > div.filterContainer > input[type="text"]
+{
+    padding: 4px 10px !important;
+    width: calc(100% - 20px) !important;
+    background-color: #ffffff1c !important;
+
+    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+@media only screen and (min-width:768px)
+{
+    html > body.compact
+    {
+        border: 1px solid #2c2642 !important;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    html > body > div.path
+    {
+        padding: 10px 0px 10px 10px !important;
+        width: calc(100% - 30px) !important;
+        font-size: 15px !important;
+    }
+}
