@@ -1,6 +1,7 @@
 <br/>
+
 <p align="center">
-  <img width="600px" src="./logo.png" />
+  <img width="450px" src="./logo.png" />
 </p>
 
 <p align="center">
@@ -10,98 +11,54 @@
 <br/>
 
 <p align="center"> 
-  For usage instructions, see the relevant repository:
+  For usage instructions, see the documentation of the relevant repository:
 </p>
 
 <p align="center"> 
-  <a href="https://github.com/sixem/ivfi-php">IVFi-PHP</a>
+  <a href="https://ivfi.io/docs/php/#/themes">IVFi-PHP</a>
   <span>|</span>
-  <a href="https://github.com/sixem/ivfi-node">IVFi-Node</a>
+  <a href="https://ivfi.io/docs/node/#/configuration?id=style">IVFi-Node</a>
 </p>
 
-<br/>
-
----
-
-## White
-> _A simple bright, white theme._
-
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/206820434-a6ed1387-3bd2-419b-8db3-0da19fa1a426.png"/>
-</details>
-
----
+<br/><br/>
 
 ## Amethyst
-
 > _A dark, purple theme based on the colors of the amethyst._
-
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/206819621-479e4d70-e75f-4e2c-8f1e-8c3116eca674.png"/>
-</details>
-
----
+<img src="./previews/Amethyst.png"/>
 
 ## Antique
-
 Contributed by: [@v1rx](https://github.com/v1rx)
 
-> _An old school, dark, and high contrast theme._
-
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/207439194-976e4197-32da-4437-81b5-c91c658e4e35.png"/>
-</details>
-
----
-
+> _A dark and high contrast theme with an old school vibe._
+<img src="./previews/Antique.png"/>
 
 ## Coral
-
-> _A turquoise and greenish theme._
-
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/206820250-05470e1e-9e6b-4ebf-8d24-972767a5de20.png"/>
-</details>
-
-
----
+> _A simple blue theme._
+<img src="./previews/Coral.png"/>
 
 ## Ayu-Mirage
-
 Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 > _Inspired by the [ayu-mirage](https://github.com/ayu-theme/ayu-colors) theme._
-
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/206820492-f12d61eb-82ea-48b7-9717-69dc7e291fdb.png"/>
-</details>
-
----
+<img src="./previews/Ayu-Mirage.png"/>
 
 ## Gruvbox
-
 Contributed by: [@evwltrs](https://github.com/evwltrs)
 
 > _Inspired by the classic vim theme [gruvbox](https://github.com/morhetz/gruvbox)._
+<img src="./previews/Gruvbox.png"/>
 
-<details>
-<summary>Preview</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/2825338/206821023-27e7228e-4a5b-4472-bfae-f7cf607f6aaf.png"/>
-</details>
+## Caligo
+> _A dimmed, darker version of the default theme._
+<img src="./previews/Caligo.png"/>
 
+## Command
+> _A dark gray monospace theme with shades of green._
+<img src="./previews/Command.png"/>
 
----
+## White
+> _A simple bright, white theme._
+<img src="./previews/White.png"/>
 
 <br/>
 
