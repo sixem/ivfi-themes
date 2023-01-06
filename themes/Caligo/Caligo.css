@@ -1,0 +1,283 @@
+body,
+html {
+  background-color: #06060b !important;
+  color: #FFF !important;
+}
+
+html > body > div.tableContainer > table > thead > tr
+{
+  background-color: #0B0C13 !important;
+}
+
+html > body > div.menu {
+  background-color: #0B0C13F0 !important;
+  color: #fff !important;
+}
+
+html > body > div.menu > div:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+body > div.topBar > div.directoryInfo > div:not(.quickPath)
+{
+  border-right: 1px solid rgb(9, 9, 9) !important;
+}
+
+body > div.path a {
+  color: #FFF !important;
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+body > div.tableContainer
+{
+  border-top: 1px solid #000 !important;
+  background-color: #000 !important;
+}
+
+body > div.tableContainer
+{
+  border-bottom: 2px solid transparent;
+}
+
+body > div.tableContainer > table
+{
+  background-color: #000000 !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table > tbody > tr:not(.parent):hover
+{
+  background-color: #0B0C13 !important;
+}
+
+body > div.tableContainer > table thead tr
+{
+  border-bottom: none !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.directory td a
+{
+  color: #FF3636 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr:hover a,
+html > body > div.tableContainer > table > tbody > tr:hover td
+{
+  color: #fff !important;
+}
+
+body > div.tableContainer > table thead  tr  th
+{
+  letter-spacing: 2px !important;
+  color: #c4c4c4 !important;
+  font-weight: normal !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.parent > td > a
+{
+  color:#ffd700 !important;
+}
+
+html > body > div.tableContainer > table > tbody > tr.file > td > a
+{
+  color: #fff !important;
+}
+
+body > div.tableContainer > table tbody tr.file td a.preview
+{
+  color: #4C8AFF !important
+}
+
+body > div.tableContainer > table tbody tr.file td a.preview:visited
+{
+  color: #4C8AFF !important
+}
+
+body > div.tableContainer > table tbody tr.file td.download a
+{
+  color: #1a1f2f !important;
+}
+
+body > div.tableContainer > table tbody tr.file td.download a:visited
+{
+  color: #1a1f2f !important;
+}
+
+html > body:not([is-loading]) > div.tableContainer > table tbody tr.file:hover td.download a
+{
+  color: #fff !important;
+}
+
+.settingsContainer
+{
+  background-color: #000 !important;
+  border: 1px solid #0f0f0f !important;
+}
+
+.settingsContainer > .wrapper > div.section > div.header
+{
+  background-color: #090909 !important;
+  color: #fff !important;
+  border-top: 1px solid #0e0e11 !important;
+  border-bottom: 1px solid #0e0e11 !important;
+}
+
+select:not(.default)
+{
+  background-color: #090909 !important;
+  border: 1px solid #0e0e11 !important;
+}
+
+.settingsContainer > div.bottom
+{
+  background-color: #000 !important;
+}
+
+.settingsContainer > div.bottom > div:hover
+{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+html > body .readmeContainer
+{
+	color: #fff !important;
+  background-color: #050506 !important;
+  border-top: 1px solid #0d0d0d !important;
+}
+
+html > body .readmeContainer[open]
+{
+  border-bottom: 1px solid #0d0d0d !important;
+}
+
+html > body .readmeContainer:not([open])
+{
+  border-bottom: 1px solid #000 !important;
+}
+
+.readmeContainer a:hover
+{
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+html > body .readmeContainer div.readmeContents
+{
+  text-align: center !important;
+}
+
+html > body .readmeContainer summary:hover
+{
+  color: #535d7d !important;
+}
+
+html > body .readmeContainer::before,
+html > body .readmeContainer summary
+{
+	text-align: right !important;
+	background-color: #0B0C13 !important;
+	color: #40475e !important;
+	border-bottom: 1px solid #0d0d0d !important;
+}
+
+html > body .readmeContainer[open] summary
+{
+  border-bottom: 1px solid #0B0C13 !important;
+}
+
+body > div.bottom {
+  border-top: 1px solid #0f0f0f !important;
+  font-style: italic !important;
+  color: #202020 !important;
+}
+
+body > div.bottom a {
+  color: #353535 !important;
+}
+
+body > div.topBar
+{
+  color: #FFF !important;
+  background-color: #0B0C13F0 !important;
+  box-shadow: 0 0 3px #0d0d0d69 !important;
+  border-bottom: 1px solid #0d0d0d !important;
+}
+
+body > div.topBar > div.extend
+{
+  border-left: 2px solid transparent !important;
+}
+
+body > div.topBar > div.extend:hover
+{
+  background-color: #fff !important;
+  color: #000000c9 !important;
+}
+
+div.topBar > div.directoryInfo > div.quickPath > a
+{
+	color: #fff !important;
+}
+
+div.filterContainer > input[type="text"]
+{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
+  border-top: 2px solid #fff !important;
+}
+
+.rootGallery div.galleryContent .list
+{
+  background-color: #000 !important;
+}
+
+.rootGallery div.galleryContent .list table tr:not(.selected) td:hover
+{
+  background-color: #0B0C13 !important;
+  color: #fff !important;
+}
+
+.rootGallery div.galleryContent .list table tr:not(.selected) td
+{
+  background-color: #000 !important;
+}
+
+.rootGallery div.galleryContent .list table tr.selected td
+{
+  background-color: #fff !important;
+  color: #000 !important;
+  border-left: 5px solid #b9b9b9 !important;
+}
+
+.rootGallery div.galleryBar {
+  background-color: #000 !important;
+  border-bottom: 2px solid hsl(0, 0%, 5.1%) !important;
+}
+
+.rootGallery > div.galleryBar > .galleryBarRight > a.download
+{
+  color: #4572FF !important;
+}
+
+.rootGallery > div.galleryContent > div.list > div.drag
+{
+  border-left: 2px solid hsl(0, 0%, 5.1%) !important;
+}
+
+@media only screen and (min-width: 768px)
+{
+  html > body.compact {
+    border: 1px solid #0B0C13 !important;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  body > div.tableContainer > table > thead > tr > th
+  {
+    letter-spacing: 1px !important;
+  }
+}
